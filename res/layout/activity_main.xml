@@ -31,20 +31,13 @@
         android:layout_below="@+id/button2"
         android:background="@drawable/mybut2" />
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="100dp"
-        android:layout_height="75dp"
-        android:layout_alignRight="@+id/button3"
-        android:layout_below="@+id/button3"
-        android:background="@drawable/mybut3" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="100dp"
         android:layout_height="75dp"
-        android:layout_alignLeft="@+id/button4"
-        android:layout_below="@+id/button4"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_below="@id/button3"
         android:background="@drawable/quit" />
 
     <Button

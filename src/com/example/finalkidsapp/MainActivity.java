@@ -11,7 +11,7 @@ import android.widget.RelativeLayout;
 
 public class MainActivity extends Activity implements OnClickListener{
 
-	Button b1, b2, b3, b4, b5;
+	Button b1, b2, b3, b5;
 	RelativeLayout lay;
 	
 	@Override
@@ -22,13 +22,11 @@ public class MainActivity extends Activity implements OnClickListener{
 		b1 = (Button) findViewById(R.id.button1);
 		b2 = (Button) findViewById(R.id.button2);
 		b3 = (Button) findViewById(R.id.button3);
-		b4 = (Button) findViewById(R.id.button4);
 		b5 = (Button) findViewById(R.id.button5);
 		
 		b1.setOnClickListener(this);
 		b2.setOnClickListener(this);
 		b3.setOnClickListener(this);
-		b4.setOnClickListener(this);
 		b5.setOnClickListener(this);
 		
 		
@@ -53,10 +51,6 @@ public class MainActivity extends Activity implements OnClickListener{
 		case R.id.button3:
 			Intent startNewActivity2 = new Intent("com.example.finalkidsapp.COLORS");
 			startActivity(startNewActivity2);
-			break;
-		case R.id.button4:
-			Intent startNewActivity3 = new Intent("com.example.finalkidsapp.ABOUTUS");
-			startActivity(startNewActivity3);
 			break;
 		case R.id.button5:
 			finish();
